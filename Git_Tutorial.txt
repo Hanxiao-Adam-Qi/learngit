@@ -1,0 +1,33 @@
+Create new dictionaty/ go to new dic/ show the path
+    $ mkdir learngit
+    $ cd learngit
+    $ pwd
+    /Users/michael/learngit
+
+
+Initialize a respository ()
+    $ git init
+
+    Create a ‘.git’ file
+    DONT TOUCH THINGS INSIDE！
+
+All git commands should run in REPOSITORIES, except for git init
+
+Set username and email
+    $ git config --global user.name "Your Name"
+    $ git config --global user.email "email@example.com"
+
+Add files into a space prepard for commit
+    $ git add FILE_NAME
+
+    Should give nothing to show
+    //NO MESSAGE IS GOOD MESSAGE
+
+Commit changes (can add more than one file, so commit many in one commit)
+    $ git commit -m "Command for this commit"
+
+Get the status of repo, check changes of files
+    $ git status
+
+Check ditailed difference of changes
+    $ git diff <file name>
