@@ -34,4 +34,21 @@ Check ditailed difference of changes
 
 Check history of file
     $ git log
+
+    add --pretty=online to show a more clean log information
+
+Reset to a previous version
+    $ git reset --hard HEAD^
+
+    HEAD means present version, HEAD^ means last one , HEAD^^ last two.....
+
+    Reset back:
+        $ git reset --hard 0079fc1f7
+
+        0079fc1f7 is the version number, can reset back
+
+Regred?
+    $ git relog 
     
+    get record of command to reset back
+
