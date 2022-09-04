@@ -35,7 +35,7 @@ Check ditailed difference of changes
 Check history of file
     $ git log
 
-    add --pretty=online to show a more clean log information
+    add --pretty=oneline to show a more clean log information
 
 Reset to a previous version
     $ git reset --hard HEAD^
