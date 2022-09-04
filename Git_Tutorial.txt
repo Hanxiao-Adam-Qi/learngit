@@ -31,3 +31,7 @@ Get the status of repo, check changes of files
 
 Check ditailed difference of changes
     $ git diff <file name>
+
+Check history of file
+    $ git log
+    
